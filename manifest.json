@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "Test's extension",
+    "description": "I want work with you",
+    "version": "1.1",
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*/*"
+            ],
+            "js": [
+                "script.js"
+            ],
+            "run_at": "document_end"
+        }
+    ],
+    "icons": {
+    "128": "128.png"
+    }
+}
